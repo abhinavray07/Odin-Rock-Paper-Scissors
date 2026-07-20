@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#start-form {
+  display: inline-block;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#start-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#start-form input[type="number"] {
+  width: 100px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+#rock,
+#paper,
+#scissors {
+  font-size: 1.2rem;
+  padding: 12px 24px;
+}
+
+#winner {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #4a90e2;
+}
+
+#play-again {
+  margin-top: 15px;
+}
